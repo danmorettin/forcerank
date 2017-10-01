@@ -1,4 +1,8 @@
 
+""" This module uses the source of truth data and creates a new dataframe
+with the selected historical data. It then force ranks the data and shows
+the historical rankings also. """
+
 import pandas
 from pandas import read_csv
 
